@@ -1,0 +1,39 @@
+.sales{
+    background-color: burlywood;
+    font-weight: bold;
+    color: red;
+}
+#head-1{
+    background-color: rgb(255, 190, 204);
+    color: rgb(56, 39, 188);
+    font-weight: bold;
+}
+.main{
+    background-color:darkcyan;
+    font-weight: bold;
+}
+
+.rec{
+    background-color:khakis;
+    font-weight: bold;
+}
+
+*{
+    margin: 20px;
+
+}
+table{
+    text-align: center;
+    width: 900px;
+}
+table,td, tr{
+    border: solid black;
+}
+
+.space{
+    background-color: rgb(255, 190, 204);
+    font-weight: bold;
+}
+#headtext{
+    font-weight: bold;
+}

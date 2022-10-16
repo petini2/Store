@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P&P Store</title>    
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular-route.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/all.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div>
+        <table >
+                <tr id="head-1">
+                    <td id="stt" style="width: 50px;">STT</td>
+                    <td  colspan="2" style="width: 170px;">Thông tin kích cỡ</td>
+                    <td  colspan="2">Thông tin cấu hình</td>
+                    <td style="width:130px;">Link</td>
+                    <td class="sales" > Giá đang giảm</td>
+                    <td class="main"> Giá gốc</td>
+                    <td class="rec">Nên suy nghĩ</td>
+                </tr>
+                <tr >
+                    <td  rowspan="4" >1</td>
+                    <td rowspan="2" class="headtext">Cân nặng</td>
+                    <td rowspan="2">1.8kg</td>
+                    <td class="headtext"> Ổ cứng</td>
+                    <td>2 khe (SSD:256GB) </td>
+                    <td rowspan="4"><a href="https://fptshop.com.vn/may-tinh-xach-tay/asus-vivobook-x515ma-br478w-n4020">Click here</a></td>
+                    <td rowspan="4" class="sales">7.390.000đ</td>
+                    <td rowspan="4" class="main">7.890.000đ</td>
+                    <td rowspan="4" class="rec"></td>
+                </tr>
+                <tr>
+                    <td >CPU</td>
+                    <td >Celeron</td>
+                </tr>
+                <tr >
+                    <td rowspan="2">màn hình</td>
+                    <td rowspan="2">15.6</td>
+                    <td>Nhân x luồng</td>
+                    <td>2 x 4</td>
+                </tr>
+                <tr>
+                    <td>RAM</td>
+                    <td>Tối đa: 16 / Tốc độ: 3200 / đang 4GB (1 Khe)</td>
+                </tr>
+                <tr>
+                    <td colspan="9" class="space">SPACE</td>
+                </tr>
+                <tr >
+                    <td  rowspan="4" id="stt">2</td>
+                    <td rowspan="2">Cân nặng</td>
+                    <td rowspan="2">1.8kg</td>
+                    <td >Ổ cứng</td>
+                    <td >2 khe (SSD: 512gb) </td>
+                    <td rowspan="4"><a href="https://fptshop.com.vn/may-tinh-xach-tay/asus-vivobook-d515da-ej1364w-r3-3250u">Click here</a></td>
+                    <td rowspan="4" class="sales">7.990.000đ</td>
+                    <td rowspan="4" class="main">11.990.000đ</td>    
+                    <td rowspan="4" class="rec"></td>            
+                </tr>
+                <tr>
+                    <td >CPU</td>
+                    <td >Ryzen 3</td>
+                </tr>
+                <tr >
+                    <td rowspan="2">màn hình</td>
+                    <td rowspan="2">15.6</td>
+                    <td>Nhân x luồng</td>
+                    <td>2 x 4</td>
+                </tr>
+                <tr>
+                    <td>RAM</td>
+                    <td>Tối đa: 20 / Tốc độ: 2400 / đang 4GB (2 khe)</td>
+                </tr>
+                <tr>
+                    <td colspan="9" class="space">SPACE</td>
+                </tr>
+                <tr >
+                    <td  rowspan="4" id="stt">3</td>
+                    <td rowspan="2">Cân nặng</td>
+                    <td rowspan="2">1.5kg</td>
+                    <td >Ổ cứng</td>
+                    <td >2 khe (SSD: 128gb) </td>
+                    <td rowspan="4"><a href="https://fptshop.com.vn/may-tinh-xach-tay/lenovo-ideapad-3-i3-1005g1-nk ">Click here</a></td>
+                    <td rowspan="4" class="sales">9.490.000đ</td>
+                    <td rowspan="4" class="main">10.990.000đ</td>
+                    <td rowspan="4" class="rec"></td>
+                </tr>
+                <tr>
+                    <td >CPU</td>
+                    <td >I3 1005G1</td>
+                </tr>
+                <tr >
+                    <td rowspan="2">màn hình</td>
+                    <td rowspan="2">14.0 </td>
+                    <td>Nhân x luồng</td>
+                    <td>2 x 4</td>
+                </tr>
+                <tr>
+                    <td>RAM</td>
+                    <td>Tối đa: 12 / Tốc độ: 2400 / đang 4GB (2 khe)</td>
+                </tr>
+                <tr>
+                    <td colspan="9" class="space">SPACE</td>
+                </tr>
+                <tr >
+                    <td  rowspan="4" id="stt">4</td>
+                    <td rowspan="2" class="headtext">Cân nặng</td>
+                    <td rowspan="2">1.8kg</td>
+                    <td class="headtext">Ổ cứng</td>
+                    <td >1 khe (SSD: 512) </td>
+                    <td rowspan="4"><a href="https://fptshop.com.vn/may-tinh-xach-tay/asus-vivobook-x515ea-br2044w-i3-1115g4">Click here</a></td>
+                    <td rowspan="4" class="sales">10.790.000đ</td>
+                    <td rowspan="4" class="main">13.990.000đ</td>
+                    <td rowspan="4" class="rec"></td>
+                </tr>
+                <tr>
+                    <td class="headtext">CPU</td>
+                    <td >I3 1115G4</td>
+                </tr>
+                <tr >
+                    <td rowspan="2" class="headtext">màn hình</td>
+                    <td rowspan="2">15.6</td>
+                    <td class="headtext">Nhân x luồng</td>
+                    <td>2 x 4</td>
+                </tr>
+                <tr>
+                    <td class="headtext">RAM</td>
+                    <td>Tốc độ: 3200 / đang 8GB (2 khe)</td>
+                </tr>
+                <tr>
+                    <td colspan="9" class="space">SPACE</td>
+                </tr>
+                <tr >
+                    <td  rowspan="4" id="stt">4</td>
+                    <td rowspan="2"class="headtext">Cân nặng</td>
+                    <td rowspan="2">1.65kg</td>
+                    <td class="headtext">Ổ cứng</td>
+                    <td >2 khe (SSD: 512gb) </td>
+                    <td rowspan="4"><a href="https://fptshop.com.vn/may-tinh-xach-tay/asus-vivobook-d515da-ej1364w-r3-3250u">Click here</a></td>
+                    <td rowspan="4" class="sales" >11.890.000đ</td>
+                    <td rowspan="4" class="main">12.490.000đ</td>
+                    <td rowspan="4" class="rec"></td>
+                </tr>
+                <tr>
+                    <td class="headtext">CPU</td>
+                    <td >I3 1115G4</td>
+                </tr>
+                <tr >
+                    <td rowspan="2" class="headtext">màn hình</td>
+                    <td rowspan="2" >15.6</td>
+                    <td class="headtext">Nhân x luồng</td>
+                    <td>2 x 4</td>
+                </tr>
+                <tr>
+                    <td class="headtext" >RAM</td>
+                    <td>Tối đa: 12 / Tốc độ: 3200 / đang 8GB (2 khe)</td>
+                </tr>
+        </table>
+        
+    </div>
+</body>
+</html>
